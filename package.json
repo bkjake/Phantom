@@ -1,0 +1,24 @@
+{
+  "name": "BerkeleyPhantomJS_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "casperjs": "^1.1.1",
+    "json-stringify": "^1.0.0",
+    "jsonfile": "^2.3.1",
+    "phantomjs-prebuilt": "^2.1.7",
+    "webpage": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "phantomjs generatebatch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "appconfig": {
+    "imagelocation": "(_dirname, images.js",
+    "environment": "3"
+  },
+  "author": "Bhanu Rao",
+  "license": "ISC"
+}
